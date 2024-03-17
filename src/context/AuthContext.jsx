@@ -15,7 +15,7 @@ export const AuthContextProvider = ({ children }) => {
 		const checkUserLoggedIn = async () => {
 			setLoading(true);
 			try {
-				const res = await fetch("http://localhost:5010/api/auth/check");
+				const res = await fetch("https://gitexchange-backend.onrender.com/api/auth/check");
 				const data = await res.json();
 				setAuthUser(data.user); 
 			} catch (error) {
