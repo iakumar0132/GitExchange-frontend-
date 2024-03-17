@@ -9,10 +9,10 @@ const LikeProfile = ({ userProfile }) => {
 
 	const handleLikeProfile = async () => {
 		try {
-			const res = await fetch(`/api/users/like/${userProfile.login}`, {
-				method: "POST",
-				credentials: "include",
-			});
+			const res = await fetch(`${process.env.REACT_APP_BACKEND_URL}/users/like/${userProfile.login}`, {
+				method: "POST"
+			  });
+			  
 			const data = await res.json();
 
 			if (data.error) throw new Error(data.error);
