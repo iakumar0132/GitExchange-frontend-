@@ -10,10 +10,10 @@ const ProfileInfo = ({ userProfile }) => {
 	// const userProfile = {
 	// 	avatar_url: "https://ps.w.org/user-avatar-reloaded/assets/icon-256x256.png?rev=2540745",
 	// 	bio: "👨🏻‍💻👨🏻‍💻👨🏻‍💻",
-	// 	email: "johndoe@gmail.com",
+	// 	email: "iakumar0132@gmail.com",
 	// 	followers: 100,
 	// 	following: 200,
-	// 	html_url: "https://github.com/burakorkmez",
+	// 	html_url: "https://github.com/iakumar0132",
 	// 	location: "Somewhere, Earth",
 	// 	name: "John Doe",
 	// 	public_gists: 100,
