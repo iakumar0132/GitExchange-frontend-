@@ -8,8 +8,7 @@ const Logout = () => {
 
 	const handleLogout = async () => {
 		try {
-			const res = await fetch(`${process.env.REACT_APP_BACKEND_URL}/auth/logout`);
-			  
+			const res = await fetch("/api/auth/logout");
 			const data = await res.json();
 			console.log(data);
 			setAuthUser(null);
